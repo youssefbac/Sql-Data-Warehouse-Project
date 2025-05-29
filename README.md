@@ -5,7 +5,7 @@ this project demonstrates a comprehensicve data warehousing and analytics soluti
 
 ## Project Requirements
 
-### Buildinf the Data Warehouse
+### Building the Data Warehouse
 
 #### Objectives
 
