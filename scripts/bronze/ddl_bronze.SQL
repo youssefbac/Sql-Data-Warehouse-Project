@@ -3,6 +3,13 @@
 =========================================
    DDL scripts : create bronze tables  
 =======================================
+Create database and schemas
+
+this script creates a new database named DataWarehouse after cheking if it already exists
+if the database exists, it is dropped and recreated. Additionally, the script sets up three schemas
+bronze,silver,gold
+ 
+
 */
 
 
