@@ -1,5 +1,13 @@
 
 ----------------------Insert Silver query -------------------------------------
+/*
+Store procedure : Load silver layer
+
+Purpose: this store procedure performs the ETL process to create the silver schemas table from Bronze schemas table
+
+Usage:
+EXEC silver.load_silver
+*/
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
@@ -162,4 +170,5 @@ BEGIN
 
 END
 
-EXEC silver.load_silver
+-- Use Store procedure using this query
+-- EXEC silver.load_silver
